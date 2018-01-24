@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
+import "./style.css";
+
 class LinkButton extends Component {
 	render() {
 		return (
 			<div>
-				<button href={this.props.link} />
+				<button className="linkButton" href={this.props.link} />
 			</div>
 		);
 	}

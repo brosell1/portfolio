@@ -1,0 +1,7 @@
+.titleTextRight {
+  position: relative;
+  top: 50%;
+  text-align: left;
+  margin-left: 0.5em;
+  transform: translateY(-50%);
+}

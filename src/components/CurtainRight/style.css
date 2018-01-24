@@ -1,0 +1,11 @@
+.curtainRight {
+  width: 50vw;
+  height: 100vh;
+  background-color: darkred;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  right: 0vw;
+  z-index: 10;
+	transition: right 1s;
+}
