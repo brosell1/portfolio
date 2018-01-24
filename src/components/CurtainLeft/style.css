@@ -1,11 +1,11 @@
 .curtainLeft {
-  width: 50vw;
-  height: 100vh;
-  background-color: darkred;
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  transition: left 1s;
+	width: 50vw;
+	height: 100vh;
+	background-color: darkred;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	transition: left 1s;
 }
