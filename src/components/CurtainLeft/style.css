@@ -8,4 +8,5 @@
 	left: 0;
 	z-index: 10;
 	transition: left 1s;
+	transition-timing-function: ease;
 }
