@@ -1,7 +1,7 @@
 .curtainVert {
 	width: 100%;
-	height: 90%;
-	background-color: darkred;
+	height: 100%;
+	background-image: url("../Curtains/curtains.svg");
 	opacity: 1;
 	position: fixed;
 	top: 0;

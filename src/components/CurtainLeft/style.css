@@ -1,13 +1,12 @@
 .curtainLeft {
-	width: 50vw;
+	width: 100vw;
 	height: 100vh;
-	background-color: darkred;
+	background-image: url("../Curtains/curtains.svg");
 	opacity: 1;
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: -50vw;
 	z-index: 10;
-	transition-timing-function: ease;
-	transition: left 1s;
+	transition: width 1s;
 	transition-timing-function: ease;
 }
