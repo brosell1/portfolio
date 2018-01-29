@@ -30,7 +30,7 @@ class App extends Component {
 					curtains={this.state.curtains}
 				/>
 				<Content />
-				<LinkBar />
+				{/*<LinkBar />*/}
 			</div>
 		);
 	}

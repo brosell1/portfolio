@@ -1,13 +1,21 @@
 .content {
 	z-index: 0;
-	margin-top: 1em;
-	margin-left: 11vw;
-	margin-right: 11vw;
-	margin-bottom: 3em;
+	border-radius: 3px;
+	margin: 2vh 11.5vw 2vh 11.5vw;
 	padding: 1em;
-	width: 78vw;
-	text-align: "center";
-	display: "inline-block";
+	height: 92vh;
+	background-color: white;
+	text-align: center;
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
+}
+
+.gridItem {
+	background-color: white;
+	padding: 20px 0;
+	box-shadow: 0px 0px 18px 1px #888888 inset;
 }
 
 .ben {
