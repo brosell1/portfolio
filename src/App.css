@@ -1,8 +1,12 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 body {
   background-color: #101010;
   color: lightgray;
+}
+
+::-webkit-scrollbar {
+	display: none;
 }

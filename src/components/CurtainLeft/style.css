@@ -9,4 +9,5 @@
 	z-index: 10;
 	transition-timing-function: ease;
 	transition: left 1s;
+	transition-timing-function: ease;
 }
