@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import ben from "./ben.jpg";
 import "./style.css";
 
 import Bio from "../Bio";
@@ -11,12 +10,12 @@ import ContactLinks from "../ContactLinks";
 class Content extends Component {
 	render() {
 		return (
-			<div className="content">
+  		<div className="content">
         <Bio />
         <Carousel/>
         <ContactDetails/>
         <ContactLinks/>
-			</div>
+      </div>
 		);
 	}
 }
