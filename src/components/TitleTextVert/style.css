@@ -1,0 +1,6 @@
+.titleTextVert {
+  position: relative;
+  top: 45%;
+  text-align: center;
+  transform: translateY(-50%);
+}
