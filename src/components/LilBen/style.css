@@ -1,0 +1,9 @@
+.lilBen {
+  position: absolute;
+  left: 8%;
+  bottom: 0vh;
+  height: 50vh;
+  width: auto;
+  margin: 1em;
+  z-index: 5;
+}

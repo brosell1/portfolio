@@ -3,8 +3,8 @@ import "./App.css";
 
 import Content from "./components/Content";
 import Curtains from "./components/Curtains";
-import LinkBar from "./components/LinkBar";
 import Rope from "./components/Rope";
+import LilBen from "./components/LilBen";
 
 class App extends Component {
 	constructor(props) {
@@ -30,7 +30,7 @@ class App extends Component {
 					curtains={this.state.curtains}
 				/>
 				<Content />
-				{/*<LinkBar />*/}
+				<LilBen />
 			</div>
 		);
 	}
