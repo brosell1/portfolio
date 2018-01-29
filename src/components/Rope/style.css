@@ -1,47 +1,26 @@
 .rope {
-  position: fixed;
-  right: 10vw;
-  top: 0vh;
-  transition: top 0.3s;
-  transition-timing-function: ease;
-  z-index: 100;
+	position: fixed;
+	right: 10vw;
+	top: -3vh;
+	height: 75vh;
+	width: auto;
+	transition: top 0.3s;
+	transition-timing-function: ease;
+	z-index: 100;
 }
 
-/*.rope:hover {
-  animation-name: ropeHover;
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-  transition: top 0.5s;
-}*/
+.rope:hover {
+	top: 0vh;
+}
 
 #rope {
-  display: none;
+	display: none;
 }
 
-#rope:checked + label>img {
-  top: -50vh;
+#rope:checked + label > img {
+	top: -50vh;
 }
 
-/*#rope:checked + label>img:hover {
-  animation-name: ropeHoverChecked;
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-}*/
-
-@keyframes ropeHover {
-  from {
-    top: 0;
-  }
-  to {
-    top: -3vh;
-  }
-}
-
-@keyframes ropeHoverChecked {
-  from {
-    top: -50vh;
-  }
-  to {
-    top: -52vh;
-  }
+#rope:checked + label > img:hover {
+	top: -47vh;
 }
