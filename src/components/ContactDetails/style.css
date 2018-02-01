@@ -1,0 +1,8 @@
+.contactDetails {
+  grid-row: 2/6;
+}
+
+.contactDetails > h3 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}

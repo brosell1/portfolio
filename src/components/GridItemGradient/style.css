@@ -1,0 +1,20 @@
+.texture {
+  background:
+  linear-gradient(135deg, ivory 22px, beige 22px, beige 24px, transparent 24px, transparent 67px, beige 67px, beige 69px, transparent 69px),
+  linear-gradient(225deg, ivory 22px, beige 22px, beige 24px, transparent 24px, transparent 67px, beige 67px, beige 69px, transparent 69px)0 64px;
+  background-color:ivory;
+  background-size: 64px 128px;
+}
+
+.gradient {
+  background: linear-gradient(350deg, #fffff000, #fffff0);
+}
+
+.gradientPos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 15vh;
+  width: 100%;
+  z-index: -1;
+}

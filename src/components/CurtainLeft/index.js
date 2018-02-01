@@ -8,7 +8,7 @@ class CurtainLeft extends Component {
   render() {
 
     const openStyle = {
-      left: "-40vw"
+      left: "-90vw",
     }
 
     return(

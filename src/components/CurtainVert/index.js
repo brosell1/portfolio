@@ -18,3 +18,4 @@ class CurtainVert extends Component {
 }
 
 export default CurtainVert;
+ 

@@ -1,10 +1,21 @@
 .App {
 	text-align: center;
+	display:grid;
 }
 
 body {
   background-color: #101010;
-  color: lightgray;
+  color: #101010;
+}
+
+h1 {
+	color: ivory;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: left;
 }
 
 ::-webkit-scrollbar {
