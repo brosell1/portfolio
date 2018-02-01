@@ -6,7 +6,8 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-responsive": "^4.0.3",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-slick": "^0.17.1"
   },
   "scripts": {
     "start": "react-scripts start",

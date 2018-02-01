@@ -1,3 +1,24 @@
 .contactLinks {
   grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactLinkButton {
+  font-size: 6em;
+  color: #101010;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.contactLinks > a > span {
+  display:hidden;
+  font-size: 50%;
+  font-family: "Montserrat:400", sans-serif;
+}
+
+.contactLinkButton:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }

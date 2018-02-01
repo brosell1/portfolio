@@ -1,7 +1,7 @@
 .titleTextRight {
-  position: relative;
+  position: absolute;
+  right: 100%;
   top: 50%;
-  text-align: left;
-  margin-left: 0.5em;
-  transform: translateY(-50%);
+  transform: translate(50%, -50%);
+  font-size: 2em;
 }

@@ -8,7 +8,7 @@ class CurtainRight extends Component {
   render() {
 
     const openStyle = {
-      width: "60vw"
+      right: "-90vw"
     }
 
     return(
